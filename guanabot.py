@@ -54,8 +54,18 @@ class Materia:
 #aki le agregas el  
 # li    
 # def nk como string nomas a cada uno al final
-materias=[]
-materias.append(Materia("Materia de prueba de lunes",0,23,21,"https://github.com/guanarp",datetime.datetime(2020,8,24,22,10)))
+poo=Materia('POO',1,14,0,'https://meet.google.com/aek-behh-hkr',datetime.datetime(2020,8,31))
+fs_practica=Materia('FS Practica',2,7,30,'https://meet.google.com/gri-gvoy-gip')
+dinamica=Materia('Dinamica Charly',2,9,0)
+teoriaDeCircuitos=Materia('Teoria de Circuitos',2,16,0,'https://meet.google.com/lookup/akks57i7ph',datetime.datetime(2020,9,8))
+mn=Materia('MN Practica',3,13,0,'https://meet.google.com/lookup/e5fl37ajgl')
+dinamicaP=Materia('Dinamica Practica C',4,8,0,'https://meet.google.com/lookup/bgk5osrwbj',datetime.datetime(2020,8,27))
+tc=Materia('TC Practica',4,16,0,'https://meet.google.com/lookup/akks57i7ph')
+fs_teoria=Materia('FS Teoria',4,18,0,'https://meet.google.com/gri-gvoy-gip',datetime.datetime(2020,8,24))
+mnt=Materia('MN Teoria',5,8,30,'https://meet.google.com/lookup/e5fl37ajgl',datetime.datetime(2020,9,5))
+
+materias=[poo,fs_practica,dinamica,teoriaDeCircuitos,mn,dinamicaP,tc,fs_teoria,mnt]
+materias.append(Materia("Materia de prueba de lunes",0,23,21,"https://twitter.com/josecarios",datetime.datetime(2020,8,24,22,10)))
 
 
 @client.event
