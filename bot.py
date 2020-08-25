@@ -107,7 +107,7 @@ async def hora():
         print(fechahoy)
         try:
             print( fechaD-fechahoy )
-            if(fechaD-fechahoy== datetime.timedelta(days=7) and horario.tm_hour==22 and horario.tm_min==44):
+            if(fechaD-fechahoy== datetime.timedelta(days=5) and horario.tm_hour==12 and horario.tm_min==0):
                 await channel2.send(f"El examen de {x.getNombre()} es en 5 dias beep boop")
             if(fechaD-fechahoy== datetime.timedelta(days=3) and horario.tm_hour==12 and horario.tm_min==0):
                 await channel2.send(f"El examen de {x.getNombre()} es en 3 dias beep boop")
